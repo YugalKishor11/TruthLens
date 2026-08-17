@@ -1,2 +1,20 @@
-# TruthLens
-TruthLens (Satya 1.0) is an autonomous, Agentic AI misinformation detection ecosystem designed to identify, verify, and counter fake news in real time. Built using Python, the Gemini API, and a Streamlit dashboard, TruthLens replaces legacy NLP pipelines with a collaborative multi-agent workflow
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/74056efc-a2af-4806-b30c-1eedb4f0461e
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
